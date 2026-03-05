@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Мета-теги -->
+    <title>ПрофТехМонтаж — Строительно-монтажные работы в Кирове | PTM</title>
+    <meta name="description" content="ПрофТехМонтаж — профессиональные строительно-монтажные работы, прокладка инженерных коммуникаций, реконструкция зданий. Более 10 лет опыта. Звоните: +7 (495) 123-45-67">
+    <meta name="keywords" content="строительство, монтаж, инженерные системы, ремонт, реконструкция, прокладка коммуникаций, ПрофТехМонтаж, PTM">
+    <meta name="author" content="ПрофТехМонтаж">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph (потом добавим) -->
+    <!-- <meta property="og:title" content="..."> -->
+    
+    <!-- Стили и шрифты -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ШАПКА САЙТА -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <div class="logo-icon">PTM</div>
+                    <div class="logo-text">
+                        <div class="logo-title">ПрофТехМонтаж</div>
+                        <div class="logo-subtitle">Строительно-монтажные работы</div>
+                    </div>
+                </a>
+                
+                <!-- Основная навигация -->
+                <nav class="main-nav">
+                    <a href="#services" class="nav-link">Услуги</a>
+                    <a href="#projects" class="nav-link">Проекты</a>
+                    <a href="#about" class="nav-link">О компании</a>
+                    <a href="#contacts" class="nav-link">Контакты</a>
+                </nav>
+                
+                <!-- Контакты и кнопка -->
+                <div class="header-contacts">
+                    <a href="tel:+74951234567" class="phone-link">
+                        <span class="phone-icon">📞</span>
+                        <span class="phone-number">+7 123 456-78-90</span>
+                    </a>
+                    <button class="btn btn-primary btn-callback">Заказать звонок</button>
+                </div>
+                
+                <!-- Кнопка мобильного меню -->
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            
+            <!-- Мобильное меню (скрыто по умолчанию) -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#services" class="mobile-nav-link">Услуги</a>
+                <a href="#projects" class="mobile-nav-link">Проекты</a>
+                <a href="#about" class="mobile-nav-link">О компании</a>
+                <a href="#contacts" class="mobile-nav-link">Контакты</a>
+                <a href="tel:+74951234567" class="mobile-phone-link">+7 123 456-78-90</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ГЛАВНЫЙ БАННЕР (Герой) -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">Более 10 лет на рынке</div>
+                <h1 class="hero-title">
+                    Профессиональные
+                    <span class="text-gradient">строительно-монтажные работы</span>
+                    по России
+                </h1>
+                <p class="hero-description">
+                    Полный комплекс услуг по строительству, реконструкции и монтажу инженерных систем. 
+                    Гарантия качества, соблюдение сроков, индивидуальный подход.
+                </p>
+<!--  
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-large">Рассчитать стоимость</button>
+                    <button class="btn btn-secondary btn-large">Смотреть проекты</button>
+                </div>
+-->
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- СЕКЦИЯ УСЛУГ -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Наши услуги</div>
+                <h2 class="section-title">
+                    Полный спектр
+                    <span class="text-blue">строительно-монтажных работ</span>
+                </h2>
+                <p class="section-description">
+                    От проектирования до ... Опыт работы с объектами любой сложности.
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Услуга 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <!-- Иконка -->
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Строительство</h3>
+                    <p class="service-description">
+                        Полный цикл строительных работ от нулевого цикла до отделочных работ. 
+                        Промышленные, коммерческие объекты.
+                    </p>
+                    <ul class="service-features">
+                        <li>Строительство</li>
+                        <li>Отделочные работы</li>
+                        <li>Реконструкция и ремонт</li>
+                    </ul>
+                </div>
+                
+                <!-- Услуга 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Инженерные коммуникации</h3>
+                    <p class="service-description">
+                        Проектирование и монтаж всех видов инженерных систем: электроснабжение, 
+                        водоснабжение, отопление, вентиляция.
+                    </p>
+                    <ul class="service-features">
+                        <li>Электроснабжение и освещение</li>
+                        <li>Водоснабжение и канализация</li>
+                        <li>Отопление и вентиляция</li>
+                    </ul>
+                </div>
+                
+                <!-- Услуга 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                            <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Проектирование и согласование</h3>
+                    <p class="service-description">
+                        Разработка проектной документации, прохождение экспертизы и получение 
+                        всех необходимых разрешений.
+                    </p>
+                    <ul class="service-features">
+                        <li>Архитектурное проектирование</li>
+                        <li>Инженерные изыскания</li>
+                        <li>Согласование в контролирующих органах</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- СЕКЦИЯ "КАК МЫ РАБОТАЕМ" -->
+    <section class="process-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Как мы работаем</div>
+                <h2 class="section-title">
+                    Прозрачный процесс от
+                    <span class="text-blue">заявки до сдачи объекта</span>
+                </h2>
+            </div>
+            
+            <div class="process-steps">
+                <!-- Шаг 1 -->
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Консультация</h3>
+                    <p class="step-description">Обсуждение проекта, выезд на объект, подготовка коммерческого предложения</p>
+                </div>
+                
+                <!-- Шаг 2 -->
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Проектирование</h3>
+                    <p class="step-description">Разработка проекта, согласование с заказчиком, получение разрешений</p>
+                </div>
+                
+                <!-- Шаг 3 -->
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Выполнение работ</h3>
+                    <p class="step-description">Поэтапное выполнение работ с постоянным контролем качества</p>
+                </div>
+                
+                <!-- Шаг 4 -->
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Сдача объекта</h3>
+                    <p class="step-description">Испытание систем, подписание актов, гарантийное обслуживание</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- СЕКЦИЯ ПРОЕКТОВ -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Наши проекты</div>
+                <h2 class="section-title">
+                    Реализованные
+                    <span class="text-blue">объекты</span>
+                </h2>
+                <p class="section-description">
+                    Более 200 успешно завершенных проектов различной сложности
+                </p>
+            </div>
+            
+            <div class="projects-slider" id="projectsSlider">
+                <div class="slider-container">
+                    <!-- Проект 1 -->
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <div class="project-image project-image-1">
+                                <span class="project-tag">Промышленный объект</span>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Работы на заводе</h3>
+                                <p class="project-description">
+                                    Реконструкция и модернизация инженерных систем
+                                </p>
+                                <div class="project-details">
+                                    <div class="project-detail">
+                                        <div class="detail-label">123</div>
+                                        <div class="detail-value">123</div>
+                                    </div>
+                                    <div class="project-detail">
+                                        <div class="detail-label">Срок</div>
+                                        <div class="detail-value">8 месяцев</div>
+                                    </div>
+                                    <div class="project-detail">
+                                        <div class="detail-label">Год</div>
+                                        <div class="detail-value">2022</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Проект 2 -->
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <div class="project-image project-image-2">
+                                <span class="project-tag">Ещё там где то</span>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Да-да именно там</h3>
+                                <p class="project-description">
+                                    Реконструкция и модернизация инженерных систем
+                                </p>
+                                <div class="project-details">
+                                    <div class="project-detail">
+                                        <div class="detail-label">123</div>
+                                        <div class="detail-value">123</div>
+                                    </div>
+                                    <div class="project-detail">
+                                        <div class="detail-label">Срок</div>
+                                        <div class="detail-value">8 месяцев</div>
+                                    </div>
+                                    <div class="project-detail">
+                                        <div class="detail-label">Год</div>
+                                        <div class="detail-value">2022</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Проект 3 -->
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <div class="project-image project-image-3">
+                                <span class="project-tag">Офисное здание</span>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Бизнес-центр</h3>
+                                <p class="project-description">
+                                    Монтаж систем вентиляции и кондиционирования
+                                </p>
+                                <div class="project-details">
+                                    <div class="project-detail">
+                                        <div class="detail-label">123</div>
+                                        <div class="detail-value">123</div>
+                                    </div>
+                                    <div class="project-detail">
+                                        <div class="detail-label">Срок</div>
+                                        <div class="detail-value">8 месяцев</div>
+                                    </div>
+                                    <div class="project-detail">
+                                        <div class="detail-label">Год</div>
+                                        <div class="detail-value">2022</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Проект 4 -->
+                    <div class="project-slide">
+                        <div class="project-card">
+                            <div class="project-image project-image-4">
+                                <span class="project-tag">123123213</span>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">123123123</h3>
+                                <p class="project-description">
+                                    123123123
+                                </p>
+                                <div class="project-details">
+                                    <div class="project-detail">
+                                        <div class="detail-label">123123</div>
+                                        <div class="detail-value">123123</div>
+                                    </div>
+                                    <div class="project-detail">
+                                        <div class="detail-label">Срок</div>
+                                        <div class="detail-value">8 месяцев</div>
+                                    </div>
+                                    <div class="project-detail">
+                                        <div class="detail-label">Год</div>
+                                        <div class="detail-value">2022</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Кнопки слайдера -->
+            <div class="slider-controls">
+                <button class="slider-btn slider-prev" id="sliderPrev">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 19l-7-7 7-7"/>
+                    </svg>
+                </button>
+                <button class="slider-btn slider-next" id="sliderNext">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 5l7 7-7 7"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ "О КОМПАНИИ" -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-badge">О компании</div>
+                    <h2 class="section-title">
+                        <span class="text-blue">ПрофТехМонтаж</span> —
+                        надежный партнер в строительстве
+                    </h2>
+                    <p class="about-description">
+                        Более 10 лет мы успешно реализуем проекты в области строительства и монтажа инженерных систем. 
+                        Наш опыт охватывает объекты различной сложности — от небольших коммерческих помещений 
+                        до крупных промышленных комплексов.
+                    </p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Лет на рынке</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">200+</div>
+                            <div class="stat-label">Завершенных проектов</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Постоянных клиентов</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Техническая поддержка</div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-buttons">
+                        <button class="btn btn-primary">Скачать презентацию</button>
+                        <button class="btn btn-outline">Видео о компании</button>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <!-- Здесь будет изображение компании -->
+                        <div class="placeholder-text">Изображение компании</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✅</div>
+                        <div class="feature-content">
+                            <h4 class="feature-title">Гарантия качества</h4>
+                            <p class="feature-text">Все работы выполняются согласно ГОСТ</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⏱️</div>
+                        <div class="feature-content">
+                            <h4 class="feature-title">Соблюдение сроков</h4>
+                            <p class="feature-text">Четкое планирование и контроль этапов</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- СЕКЦИЯ ЗАЯВКИ -->
+    <section class="request-section">
+        <div class="container">
+            <div class="section-header section-header-light">
+                <div class="section-badge section-badge-light">Оставьте заявку</div>
+                <h2 class="section-title section-title-light">
+                    Получите бесплатную консультацию
+                    <span class="text-gradient">инженера</span>
+                </h2>
+                <p class="section-description section-description-light">
+                    Опишите ваш проект, и мы подготовим детальное коммерческое предложение в течение 24 часов
+                </p>
+            </div>
+            
+            <div class="request-form-container">
+                <form class="request-form" id="requestForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Ваше имя *</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Иван Иванов" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Телефон *</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="+7 (999) 999-99-99" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="ivan@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="service" class="form-label">Интересующая услуга</label>
+                            <select id="service" name="service" class="form-input">
+                                <option value="">Выберите услугу</option>
+                                <option value="engineering">Инженерные коммуникации</option>
+                                <option value="design">Проектирование</option>
+                                <option value="reconstruction">Реконструкция</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Опишите ваш проект</label>
+                        <textarea id="message" name="message" class="form-input textarea" rows="4" placeholder="Площадь объекта, сроки, особые требования..."></textarea>
+                    </div>
+                    
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="agreement" name="agreement" class="checkbox-input" required>
+                        <label for="agreement" class="checkbox-label">
+                            Я соглашаюсь с обработкой персональных данных и 
+                            <a href="privacy.html" class="privacy-link">политикой конфиденциальности</a>
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        Отправить заявку
+                    </button>
+                    
+                    <p class="form-note">
+                        Наш специалист свяжется с вами в течение 1 часа в рабочее время
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ КОНТАКТОВ -->
+    <section class="contacts-section" id="contacts">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Контакты</div>
+                <h2 class="section-title">
+                    Свяжитесь с нами
+                    <span class="text-blue">удобным способом</span>
+                </h2>
+            </div>
+            
+            <div class="contacts-grid">
+                <!-- Контакт 1 -->
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="contact-title">Телефон</h3>
+                    <p class="contact-description">Звоните в рабочее время:</p>
+                    <a href="tel:+74951234567" class="contact-link">+7 123 456-78-90</a>
+                    <div class="contact-divider"></div>
+                    <p class="contact-description">WhatsApp / Telegram:</p>
+                    <a href="https://wa.me/74951234567" class="contact-link">+7 123 456-78-90</a>
+                </div>
+                
+                <!-- Контакт 2 -->
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="contact-title">Адрес</h3>
+                    <p class="contact-description">Центральный офис:</p>
+                    <address class="contact-address">
+                        123456, г. Киров,<br>
+                        ул. Московская, д. 1, офис 1
+                    </address>
+                    <div class="contact-divider"></div>
+                    <p class="contact-description">Режим работы:</p>
+                    <p class="contact-schedule">
+                        Пн-Пт: 9:00-18:00<br>
+                        Сб: 10:00-16:00
+                    </p>
+                </div>
+                
+                <!-- Контакт 3 -->
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="contact-title">Электронная почта</h3>
+                    <p class="contact-description">Для коммерческих предложений:</p>
+                    <a href="mailto:info@proftechmontazh.ru" class="contact-link">proftechmontazh@gmail.com</a>
+                    <div class="contact-divider"></div>
+                    <p class="contact-description">Для резюме и вакансий:</p>
+                    <a href="mailto:hr@proftechmontazh.ru" class="contact-link">proftechmontazh@gmail.com</a>
+                </div>
+            </div>
+            
+            <!-- Карта (заглушка) -->
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <div class="map-icon">📍</div>
+                    <p class="map-text">Здесь будет карта</p>
+                    <p class="map-note">(при подключении Яндекс.Карт или Google Maps)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ФУТЕР -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Лого и описание -->
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">PTM</div>
+                        <div class="footer-logo-text">
+                            <div class="footer-logo-title">ПрофТехМонтаж</div>
+                            <div class="footer-logo-subtitle">Строительно-монтажные работы</div>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        Профессиональные строительно-монтажные работы, прокладка инженерных коммуникаций, 
+                        реконструкция сооружений.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Telegram">TG</a>
+                        <a href="#" class="social-link" aria-label="Vkontakte">VK</a>
+                    </div>
+                </div>
+                
+                <!-- Навигация -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Навигация</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#projects">Проекты</a></li>
+                        <li><a href="#about">О компании</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                        <li><a href="privacy.html">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Услуги -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Услуги</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Инженерные коммуникации</a></li>
+                        <li><a href="#">Проектирование</a></li>
+                        <li><a href="#">Реконструкция</a></li>
+                        <li><a href="#">Монтажные работы</a></li>
+                        <li><a href="#">Техническое обслуживание</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Контакты -->
+                <div class="footer-column">
+                    <h3 class="footer-title">Контакты</h3>
+                    <div class="footer-contacts">
+                        <div class="footer-contact">
+                            <span class="contact-label">Адрес:</span>
+                            <span class="contact-value">г. Киров, ул. Московская, д. 1, офис 1</span>
+                        </div>
+                        <div class="footer-contact">
+                            <span class="contact-label">Телефон:</span>
+                            <a href="tel:+74951234567" class="contact-value">+7 123 456-78-90</a>
+                        </div>
+                        <div class="footer-contact">
+                            <span class="contact-label">Email:</span>
+                            <a href="mailto:info@proftechmontazh.ru" class="contact-value">proftechmontazh@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="footer-legal">
+                        <p>ИНН: 1234567890</p>
+                        <p>ОГРН: 1234567890123</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Копирайт -->
+            <div class="copyright">
+                <p>
+                    © <span id="currentYear">2024</span> ПрофТехМонтаж. Все права защищены.
+                    <span class="copyright-note">
+                        Сайт носит информационный характер и не является публичной офертой.
+                    </span>
+                </p>
+                <p class="developer-note">
+                    Разработано с ❤️ для строительной отрасли
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- КНОПКА "НАВЕРХ" -->
+    <button id="scrollToTop" class="scroll-top" aria-label="Наверх">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 10l7-7m0 0l7 7m-7-7v18"/>
+        </svg>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
