@@ -1254,3 +1254,12 @@ body.page-404 .main-404 {
     padding: 40px 0;
 }
 
+/* Фикс выпадающего меню услуг */
+.request-form select.form-input option {
+    color: #111827;
+    background-color: #f9fafb;
+}
+
+.request-form select.form-input option:hover {
+    background-color: #e5e7eb;
+}
