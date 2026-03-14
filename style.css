@@ -1121,48 +1121,62 @@ textarea.form-input {
 }
 
 @media (max-width: 768px) {
+    /* ===== HEADER ===== */
     .header-content {
-         flex-wrap: wrap;
-         gap: 10px;
+        flex-wrap: wrap;
+        gap: 5px; /* Уменьшил отступ */
     }
-
+    
     .logo {
-        gap: 8px;
+        gap: 6px; /* Уменьшил */
     }
     
     .logo-icon {
-        width: 40px;
-        height: 40px;
-        font-size: 18px;
-    }
-    
-    .logo-title {
+        width: 36px;
+        height: 36px;
         font-size: 16px;
     }
     
+    .logo-title {
+        font-size: 14px;
+    }
+    
     .logo-subtitle {
-        font-size: 10px;
+        display: none; /* Скрываем подпись на мобилках */
     }
     
     .main-nav {
-        display: none;
+        display: none; /* Прячем основное меню */
     }
     
     .mobile-menu-toggle {
-        display: flex;
+        display: flex; /* Показываем бургер */
+    }
+    
+    .header-contacts {
+        display: none; /* ПОЛНОСТЬЮ ПРЯЧЕМ телефон и кнопку */
     }
     
     .mobile-menu.active {
         display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 0;
     }
     
-    .header-contacts {
-        order: 3;
-        width: 100%;
-        justify-content: center;
-        margin-top: 20px;
+    .mobile-phone-link {
+        display: block;
+        padding: 15px 0;
+        color: #2563eb;
+        font-weight: 600;
+        font-size: 18px;
+        text-decoration: none;
+        border-top: 1px solid #e5e7eb;
+        margin-top: 10px;
+        text-align: center;
     }
     
+    /* ===== ОСТАЛЬНЫЕ СТИЛИ ДЛЯ МОБИЛОК (ВСЁ ВАЖНОЕ) ===== */
     .hero-title {
         font-size: 32px;
     }
@@ -1209,15 +1223,6 @@ textarea.form-input {
     
     .stats-grid {
         grid-template-columns: 1fr;
-    }
-    
-    .about-buttons {
-        flex-direction: column;
-    }
-    
-    .about-buttons .btn {
-        width: 100%;
-        text-align: center;
     }
 }
 
