@@ -1062,6 +1062,27 @@ textarea.form-input {
     color: #6b7280;
 }
 
+/* ===== Sticky footer(for 404) ===== */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
 /* ===== SCROLL TO TOP BUTTON ===== */
 .scroll-top {
     position: fixed;
