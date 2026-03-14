@@ -1176,7 +1176,7 @@ textarea.form-input {
         text-align: center;
     }
     
-    /* ===== ОСТАЛЬНЫЕ СТИЛИ ДЛЯ МОБИЛОК (ВСЁ ВАЖНОЕ) ===== */
+    /* ===== ОСТАЛЬНЫЕ СТИЛИ ДЛЯ МОБИЛОК  ===== */
     .hero-title {
         font-size: 32px;
     }
@@ -1223,6 +1223,63 @@ textarea.form-input {
     
     .stats-grid {
         grid-template-columns: 1fr;
+    }
+        /* ===== ABOUT SECTION НА МОБИЛКАХ ===== */
+    .about-image {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 30px;
+    }
+    
+    .image-placeholder {
+        margin-bottom: 0;
+        min-height: 180px;
+    }
+    
+    .feature-card {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        width: 100%;
+        margin: 0;
+        background: white;
+        border-radius: 16px;
+        padding: 20px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    
+    .feature-icon {
+        font-size: 28px;
+        width: 50px;
+        height: 50px;
+        background: #f3f4f6;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    
+    .feature-content {
+        flex: 1;
+    }
+    
+    .feature-title {
+        font-size: 18px;
+        color: #111827;
+        margin-bottom: 4px;
+    }
+    
+    .feature-text {
+        font-size: 14px;
+        color: #6b7280;
+        margin: 0;
     }
 }
 
